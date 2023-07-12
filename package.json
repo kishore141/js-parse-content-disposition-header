@@ -1,12 +1,23 @@
 {
-  "name": "js-parse-content-disposition-header",
+  "name": "@kishore141/js-parse-content-disposition-header",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "js parse content disposition header",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist/**/*"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kishore141/js-parse-content-disposition-header.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "homepage": "https://github.com/kishore141/js-parse-content-disposition-header.git#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "tsc"
+  },
+  "keywords": ["parse", "content-disposition"],
+  "author": "kishore",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
 }
